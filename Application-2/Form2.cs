@@ -9,13 +9,7 @@ public partial class Form2 : Form
 	public Form2()
 	{
 		InitializeComponent();
-
-
-		//double p = 1234.98765;
-		//numberText.Text = p.ToString("0.#######", System.Globalization.CultureInfo.InvariantCulture);
-		//	line.Text = p.ToString();
 	}
-
 
 	private void num1btn_Click(object sender, EventArgs e)
 	{
@@ -140,5 +134,51 @@ public partial class Form2 : Form
 	private void fullClearBtn_Click(object sender, EventArgs e)
 	{
 		line.Text = "";
+	}
+
+	private void piBtn_Click(object sender, EventArgs ea)
+	{
+		double pi = 3.1416;
+
+		if (line.Text == "")
+		{
+			line.Text = pi.ToString("0.####",
+			System.Globalization.CultureInfo.InvariantCulture);
+		}
+		else
+		{
+			line.Text = line.Text + "*" + pi.ToString("0.####",
+						  System.Globalization.CultureInfo.InvariantCulture);
+		}
+	}
+
+	private void eBtn_Click(object sender, EventArgs ea)
+	{
+		double e = 2.7189;
+
+		if (line.Text == "")
+		{
+			line.Text = e.ToString("0.####",
+				System.Globalization.CultureInfo.InvariantCulture);
+		}
+		else
+		{
+			line.Text = line.Text + "*" + e.ToString("0.####",
+						  System.Globalization.CultureInfo.InvariantCulture);
+		}
+	}
+
+	private void sqrtNumBtn_Click(object sender, EventArgs e)
+	{
+		line.Text = Math.Sqrt
+			(Convert.ToDouble(new DataTable().Compute(line.Text, null)))
+				.ToString();
+	}
+
+	private void to2PowBtn_Click(object sender, EventArgs e)
+	{
+		line.Text = Math.Pow
+			(Convert.ToDouble(new DataTable().Compute(line.Text, null)), 2.0)
+					.ToString();
 	}
 }

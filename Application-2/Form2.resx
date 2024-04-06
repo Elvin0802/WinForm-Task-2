@@ -119,14 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chnageMinusBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 172</value>
+    <value>6, 276</value>
   </data>
   <data name="chnageMinusBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chnageMinusBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>13</value>
   </data>
   <data name="chnageMinusBtn.Text" xml:space="preserve">
     <value>+/-</value>
@@ -141,16 +141,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;chnageMinusBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="num0btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 172</value>
+    <value>122, 190</value>
   </data>
   <data name="num0btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num0btn.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>10</value>
   </data>
   <data name="num0btn.Text" xml:space="preserve">
     <value>0</value>
@@ -165,13 +165,13 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num0btn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>12</value>
   </data>
   <data name="num2btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 30</value>
+    <value>122, 18</value>
   </data>
   <data name="num2btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num2btn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -189,16 +189,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num2btn.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>22</value>
   </data>
   <data name="num1btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 30</value>
+    <value>6, 18</value>
   </data>
   <data name="num1btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num1btn.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="num1btn.Text" xml:space="preserve">
     <value>1</value>
@@ -213,16 +213,19 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num1btn.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>23</value>
+  </data>
+  <data name="equalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 15.8pt, style=Bold</value>
   </data>
   <data name="equalBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 314</value>
+    <value>354, 448</value>
   </data>
   <data name="equalBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="equalBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>24</value>
   </data>
   <data name="equalBtn.Text" xml:space="preserve">
     <value>=</value>
@@ -237,16 +240,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;equalBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>10</value>
   </data>
   <data name="pointBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 172</value>
+    <value>122, 276</value>
   </data>
   <data name="pointBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="pointBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>14</value>
   </data>
   <data name="pointBtn.Text" xml:space="preserve">
     <value>.</value>
@@ -261,16 +264,19 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;pointBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>8</value>
+  </data>
+  <data name="additionalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 15pt, style=Bold</value>
   </data>
   <data name="additionalBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 243</value>
+    <value>6, 362</value>
   </data>
   <data name="additionalBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="additionalBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>17</value>
   </data>
   <data name="additionalBtn.Text" xml:space="preserve">
     <value>+</value>
@@ -285,16 +291,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;additionalBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>7</value>
   </data>
   <data name="num3btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 30</value>
+    <value>238, 18</value>
   </data>
   <data name="num3btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num3btn.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>3</value>
   </data>
   <data name="num3btn.Text" xml:space="preserve">
     <value>3</value>
@@ -309,16 +315,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num3btn.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>19</value>
   </data>
   <data name="num5btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 101</value>
+    <value>6, 104</value>
   </data>
   <data name="num5btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num5btn.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>5</value>
   </data>
   <data name="num5btn.Text" xml:space="preserve">
     <value>5</value>
@@ -333,16 +339,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num5btn.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>6</value>
   </data>
   <data name="num4btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 30</value>
+    <value>354, 18</value>
   </data>
   <data name="num4btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num4btn.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>4</value>
   </data>
   <data name="num4btn.Text" xml:space="preserve">
     <value>4</value>
@@ -357,16 +363,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num4btn.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>16</value>
   </data>
   <data name="num6btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 101</value>
+    <value>122, 104</value>
   </data>
   <data name="num6btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num6btn.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>6</value>
   </data>
   <data name="num6btn.Text" xml:space="preserve">
     <value>6</value>
@@ -381,16 +387,19 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num6btn.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>14</value>
+  </data>
+  <data name="substractBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 15.6pt, style=Bold</value>
   </data>
   <data name="substractBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 243</value>
+    <value>122, 362</value>
   </data>
   <data name="substractBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="substractBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>18</value>
   </data>
   <data name="substractBtn.Text" xml:space="preserve">
     <value>-</value>
@@ -405,16 +414,19 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;substractBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>13</value>
+  </data>
+  <data name="multipleBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 14.8pt, style=Bold</value>
   </data>
   <data name="multipleBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 243</value>
+    <value>238, 362</value>
   </data>
   <data name="multipleBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="multipleBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>19</value>
   </data>
   <data name="multipleBtn.Text" xml:space="preserve">
     <value>x</value>
@@ -429,16 +441,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;multipleBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="num9btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 172</value>
+    <value>6, 190</value>
   </data>
   <data name="num9btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num9btn.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>9</value>
   </data>
   <data name="num9btn.Text" xml:space="preserve">
     <value>9</value>
@@ -453,16 +465,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num9btn.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="num7btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 101</value>
+    <value>238, 104</value>
   </data>
   <data name="num7btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num7btn.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>7</value>
   </data>
   <data name="num7btn.Text" xml:space="preserve">
     <value>7</value>
@@ -477,16 +489,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num7btn.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>18</value>
   </data>
   <data name="num8btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 101</value>
+    <value>354, 104</value>
   </data>
   <data name="num8btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="num8btn.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>8</value>
   </data>
   <data name="num8btn.Text" xml:space="preserve">
     <value>8</value>
@@ -501,16 +513,19 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;num8btn.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>15</value>
+  </data>
+  <data name="fullClearBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 14.8pt, style=Bold</value>
   </data>
   <data name="fullClearBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 314</value>
+    <value>6, 448</value>
   </data>
   <data name="fullClearBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="fullClearBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>21</value>
   </data>
   <data name="fullClearBtn.Text" xml:space="preserve">
     <value>C</value>
@@ -525,16 +540,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;fullClearBtn.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>21</value>
   </data>
   <data name="deleteEndDigitBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 314</value>
+    <value>238, 448</value>
   </data>
   <data name="deleteEndDigitBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="deleteEndDigitBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>23</value>
   </data>
   <data name="deleteEndDigitBtn.Text" xml:space="preserve">
     <value>&lt;--</value>
@@ -549,16 +564,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;deleteEndDigitBtn.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>20</value>
   </data>
   <data name="divideBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 243</value>
+    <value>354, 362</value>
   </data>
   <data name="divideBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="divideBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="divideBtn.Text" xml:space="preserve">
     <value>/</value>
@@ -573,16 +588,16 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;divideBtn.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>17</value>
   </data>
   <data name="onlyClearBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 314</value>
+    <value>122, 448</value>
   </data>
   <data name="onlyClearBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 65</value>
+    <value>110, 80</value>
   </data>
   <data name="onlyClearBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>22</value>
   </data>
   <data name="onlyClearBtn.Text" xml:space="preserve">
     <value>CE</value>
@@ -597,26 +612,29 @@
     <value>buttonsGroup</value>
   </data>
   <data name="&gt;&gt;onlyClearBtn.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>11</value>
   </data>
   <data name="line.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="line.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 22pt</value>
+    <value>Consolas, 25pt</value>
   </data>
   <data name="line.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
+  </data>
+  <data name="line.MaxLength" type="System.Int32, mscorlib">
+    <value>1000</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="line.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="line.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 50</value>
+    <value>470, 56</value>
   </data>
   <data name="line.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>0</value>
   </data>
   <data name="line.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -633,11 +651,128 @@
   <data name="&gt;&gt;line.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="to2PowBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="to2PowBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 275</value>
+  </data>
+  <data name="to2PowBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 80</value>
+  </data>
+  <data name="to2PowBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="to2PowBtn.Text" xml:space="preserve">
+    <value>n^2</value>
+  </data>
+  <data name="&gt;&gt;to2PowBtn.Name" xml:space="preserve">
+    <value>to2PowBtn</value>
+  </data>
+  <data name="&gt;&gt;to2PowBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;to2PowBtn.Parent" xml:space="preserve">
+    <value>buttonsGroup</value>
+  </data>
+  <data name="&gt;&gt;to2PowBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sqrtNumBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 11.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="sqrtNumBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sqrtNumBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 276</value>
+  </data>
+  <data name="sqrtNumBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 80</value>
+  </data>
+  <data name="sqrtNumBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="sqrtNumBtn.Text" xml:space="preserve">
+    <value>sqrt(n)</value>
+  </data>
+  <data name="&gt;&gt;sqrtNumBtn.Name" xml:space="preserve">
+    <value>sqrtNumBtn</value>
+  </data>
+  <data name="&gt;&gt;sqrtNumBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sqrtNumBtn.Parent" xml:space="preserve">
+    <value>buttonsGroup</value>
+  </data>
+  <data name="&gt;&gt;sqrtNumBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="eBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 13.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="eBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="eBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 190</value>
+  </data>
+  <data name="eBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 80</value>
+  </data>
+  <data name="eBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="eBtn.Text" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="&gt;&gt;eBtn.Name" xml:space="preserve">
+    <value>eBtn</value>
+  </data>
+  <data name="&gt;&gt;eBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eBtn.Parent" xml:space="preserve">
+    <value>buttonsGroup</value>
+  </data>
+  <data name="&gt;&gt;eBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="piBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 13.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="piBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="piBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 190</value>
+  </data>
+  <data name="piBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 80</value>
+  </data>
+  <data name="piBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="piBtn.Text" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="&gt;&gt;piBtn.Name" xml:space="preserve">
+    <value>piBtn</value>
+  </data>
+  <data name="&gt;&gt;piBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piBtn.Parent" xml:space="preserve">
+    <value>buttonsGroup</value>
+  </data>
+  <data name="&gt;&gt;piBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="buttonsGroup.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 68</value>
   </data>
   <data name="buttonsGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 396</value>
+    <value>470, 533</value>
   </data>
   <data name="buttonsGroup.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -658,10 +793,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>462, 473</value>
+    <value>487, 603</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 12pt</value>
+    <value>Consolas, 13.8pt, style=Bold</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -889,10 +1024,10 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>480, 520</value>
+    <value>505, 650</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>480, 520</value>
+    <value>505, 650</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

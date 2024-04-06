@@ -11,9 +11,10 @@ public static class Program
 			ApplicationConfiguration.Initialize();
 			Application.Run(new Form2());
 		}
-		catch
+		catch (Exception e)
 		{
-			MessageBox.Show("as", "as");
+			MessageBox.Show($"Message : {e.Message}", 
+				"Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 	}
 }

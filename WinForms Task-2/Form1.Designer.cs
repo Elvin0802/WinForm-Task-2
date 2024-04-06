@@ -44,6 +44,7 @@ partial class Form1
 		// 
 		// loadName
 		// 
+		loadName.BackColor = SystemColors.ButtonFace;
 		loadName.Location = new Point(126, 13);
 		loadName.Margin = new Padding(4);
 		loadName.Name = "loadName";
@@ -53,12 +54,14 @@ partial class Form1
 		// 
 		// loadB
 		// 
+		loadB.BackColor = Color.DarkGreen;
+		loadB.ForeColor = Color.LightGoldenrodYellow;
 		loadB.Location = new Point(452, 12);
 		loadB.Name = "loadB";
 		loadB.Size = new Size(120, 37);
 		loadB.TabIndex = 2;
 		loadB.Text = "Load";
-		loadB.UseVisualStyleBackColor = true;
+		loadB.UseVisualStyleBackColor = false;
 		loadB.MouseClick += loadB_MouseClick;
 		// 
 		// anketG
@@ -89,6 +92,7 @@ partial class Form1
 		// 
 		// fNameT
 		// 
+		fNameT.BackColor = Color.Gainsboro;
 		fNameT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		fNameT.Location = new Point(200, 117);
 		fNameT.Name = "fNameT";
@@ -97,6 +101,7 @@ partial class Form1
 		// 
 		// phNumT
 		// 
+		phNumT.BackColor = Color.Gainsboro;
 		phNumT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		phNumT.Location = new Point(200, 246);
 		phNumT.Name = "phNumT";
@@ -105,6 +110,7 @@ partial class Form1
 		// 
 		// cityT
 		// 
+		cityT.BackColor = Color.Gainsboro;
 		cityT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		cityT.Location = new Point(200, 212);
 		cityT.Name = "cityT";
@@ -113,6 +119,7 @@ partial class Form1
 		// 
 		// countryT
 		// 
+		countryT.BackColor = Color.Gainsboro;
 		countryT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		countryT.Location = new Point(200, 178);
 		countryT.Name = "countryT";
@@ -121,6 +128,7 @@ partial class Form1
 		// 
 		// surnameT
 		// 
+		surnameT.BackColor = Color.Gainsboro;
 		surnameT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		surnameT.Location = new Point(200, 81);
 		surnameT.Name = "surnameT";
@@ -129,6 +137,7 @@ partial class Form1
 		// 
 		// nameT
 		// 
+		nameT.BackColor = Color.Gainsboro;
 		nameT.Font = new Font("Calibri", 11F, FontStyle.Regular, GraphicsUnit.Point);
 		nameT.Location = new Point(200, 42);
 		nameT.Name = "nameT";
@@ -137,6 +146,7 @@ partial class Form1
 		// 
 		// birthDateT
 		// 
+		birthDateT.CalendarMonthBackground = SystemColors.Menu;
 		birthDateT.CustomFormat = "dd.MMMM.yyyy";
 		birthDateT.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
 		birthDateT.Format = DateTimePickerFormat.Custom;
@@ -245,18 +255,21 @@ partial class Form1
 		// 
 		// saveB
 		// 
+		saveB.BackColor = Color.DarkGreen;
+		saveB.ForeColor = Color.LightGoldenrodYellow;
 		saveB.Location = new Point(30, 529);
 		saveB.Name = "saveB";
 		saveB.Size = new Size(521, 52);
 		saveB.TabIndex = 4;
 		saveB.Text = "Save";
-		saveB.UseVisualStyleBackColor = true;
+		saveB.UseVisualStyleBackColor = false;
 		saveB.MouseClick += saveB_MouseClick;
 		// 
 		// Form1
 		// 
 		AutoScaleDimensions = new SizeF(12F, 28F);
 		AutoScaleMode = AutoScaleMode.Font;
+		BackColor = SystemColors.Info;
 		ClientSize = new Size(582, 603);
 		Controls.Add(saveB);
 		Controls.Add(anketG);

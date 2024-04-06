@@ -40,6 +40,10 @@ partial class Form2
 		onlyClearBtn = new Button();
 		line = new TextBox();
 		buttonsGroup = new GroupBox();
+		to2PowBtn = new Button();
+		sqrtNumBtn = new Button();
+		eBtn = new Button();
+		piBtn = new Button();
 		buttonsGroup.SuspendLayout();
 		SuspendLayout();
 		// 
@@ -93,7 +97,7 @@ partial class Form2
 		// 
 		// additionalBtn
 		// 
-		additionalBtn.BackColor = Color.PowderBlue;
+		additionalBtn.BackColor = Color.SkyBlue;
 		resources.ApplyResources(additionalBtn, "additionalBtn");
 		additionalBtn.Name = "additionalBtn";
 		additionalBtn.UseVisualStyleBackColor = false;
@@ -133,7 +137,7 @@ partial class Form2
 		// 
 		// substractBtn
 		// 
-		substractBtn.BackColor = Color.PowderBlue;
+		substractBtn.BackColor = Color.SkyBlue;
 		resources.ApplyResources(substractBtn, "substractBtn");
 		substractBtn.Name = "substractBtn";
 		substractBtn.UseVisualStyleBackColor = false;
@@ -141,7 +145,7 @@ partial class Form2
 		// 
 		// multipleBtn
 		// 
-		multipleBtn.BackColor = Color.PowderBlue;
+		multipleBtn.BackColor = Color.SkyBlue;
 		resources.ApplyResources(multipleBtn, "multipleBtn");
 		multipleBtn.Name = "multipleBtn";
 		multipleBtn.UseVisualStyleBackColor = false;
@@ -181,7 +185,7 @@ partial class Form2
 		// 
 		// deleteEndDigitBtn
 		// 
-		deleteEndDigitBtn.BackColor = Color.LightPink;
+		deleteEndDigitBtn.BackColor = Color.LightCoral;
 		resources.ApplyResources(deleteEndDigitBtn, "deleteEndDigitBtn");
 		deleteEndDigitBtn.Name = "deleteEndDigitBtn";
 		deleteEndDigitBtn.UseVisualStyleBackColor = false;
@@ -189,7 +193,7 @@ partial class Form2
 		// 
 		// divideBtn
 		// 
-		divideBtn.BackColor = Color.PowderBlue;
+		divideBtn.BackColor = Color.SkyBlue;
 		resources.ApplyResources(divideBtn, "divideBtn");
 		divideBtn.Name = "divideBtn";
 		divideBtn.UseVisualStyleBackColor = false;
@@ -197,7 +201,7 @@ partial class Form2
 		// 
 		// onlyClearBtn
 		// 
-		onlyClearBtn.BackColor = Color.LightPink;
+		onlyClearBtn.BackColor = Color.LightCoral;
 		resources.ApplyResources(onlyClearBtn, "onlyClearBtn");
 		onlyClearBtn.Name = "onlyClearBtn";
 		onlyClearBtn.UseVisualStyleBackColor = false;
@@ -211,8 +215,13 @@ partial class Form2
 		// 
 		// buttonsGroup
 		// 
+		buttonsGroup.Controls.Add(to2PowBtn);
+		buttonsGroup.Controls.Add(sqrtNumBtn);
+		buttonsGroup.Controls.Add(eBtn);
+		buttonsGroup.Controls.Add(piBtn);
 		buttonsGroup.Controls.Add(num9btn);
 		buttonsGroup.Controls.Add(chnageMinusBtn);
+		buttonsGroup.Controls.Add(num5btn);
 		buttonsGroup.Controls.Add(additionalBtn);
 		buttonsGroup.Controls.Add(pointBtn);
 		buttonsGroup.Controls.Add(multipleBtn);
@@ -224,7 +233,6 @@ partial class Form2
 		buttonsGroup.Controls.Add(num8btn);
 		buttonsGroup.Controls.Add(num4btn);
 		buttonsGroup.Controls.Add(divideBtn);
-		buttonsGroup.Controls.Add(num5btn);
 		buttonsGroup.Controls.Add(num7btn);
 		buttonsGroup.Controls.Add(num3btn);
 		buttonsGroup.Controls.Add(deleteEndDigitBtn);
@@ -234,6 +242,38 @@ partial class Form2
 		resources.ApplyResources(buttonsGroup, "buttonsGroup");
 		buttonsGroup.Name = "buttonsGroup";
 		buttonsGroup.TabStop = false;
+		// 
+		// to2PowBtn
+		// 
+		to2PowBtn.BackColor = Color.Aquamarine;
+		resources.ApplyResources(to2PowBtn, "to2PowBtn");
+		to2PowBtn.Name = "to2PowBtn";
+		to2PowBtn.UseVisualStyleBackColor = false;
+		to2PowBtn.Click += to2PowBtn_Click;
+		// 
+		// sqrtNumBtn
+		// 
+		sqrtNumBtn.BackColor = Color.Aquamarine;
+		resources.ApplyResources(sqrtNumBtn, "sqrtNumBtn");
+		sqrtNumBtn.Name = "sqrtNumBtn";
+		sqrtNumBtn.UseVisualStyleBackColor = false;
+		sqrtNumBtn.Click += sqrtNumBtn_Click;
+		// 
+		// eBtn
+		// 
+		eBtn.BackColor = Color.DimGray;
+		resources.ApplyResources(eBtn, "eBtn");
+		eBtn.Name = "eBtn";
+		eBtn.UseVisualStyleBackColor = false;
+		eBtn.Click += eBtn_Click;
+		// 
+		// piBtn
+		// 
+		piBtn.BackColor = Color.DimGray;
+		resources.ApplyResources(piBtn, "piBtn");
+		piBtn.Name = "piBtn";
+		piBtn.UseVisualStyleBackColor = false;
+		piBtn.Click += piBtn_Click;
 		// 
 		// Form2
 		// 
@@ -274,4 +314,8 @@ partial class Form2
 	private Button onlyClearBtn;
 	private TextBox line;
 	private GroupBox buttonsGroup;
+	private Button eBtn;
+	private Button piBtn;
+	private Button sqrtNumBtn;
+	private Button to2PowBtn;
 }
