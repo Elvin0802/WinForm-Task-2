@@ -12,9 +12,9 @@ public static class Program
 			ApplicationConfiguration.Initialize();
 			Application.Run(new Form1());
 		}
-		catch
+		catch(Exception ex)
 		{
-			MessageBox.Show("Erron in App", "Run Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			MessageBox.Show("Erron in App", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 	}
 }
