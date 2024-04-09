@@ -1,4 +1,3 @@
-using System;
 using System.Data;
 
 namespace Application_2;
@@ -104,10 +103,17 @@ public partial class Form2 : Form
 
 	private void equalBtn_Click(object sender, EventArgs e)
 	{
-		double result = Convert.ToDouble(new DataTable().Compute(line.Text, null));
+		try
+		{
+			double result = Convert.ToDouble(new DataTable().Compute(line.Text, null));
 
-		line.Text = result.ToString
-		("0.############", System.Globalization.CultureInfo.InvariantCulture);
+			line.Text = result.ToString
+			("0.########################", System.Globalization.CultureInfo.InvariantCulture);
+		}
+		catch (Exception ex)
+		{
+			MessageBox.Show("Error", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+		}
 	}
 
 	private void deleteEndDigitBtn_Click(object sender, EventArgs e)
@@ -121,7 +127,7 @@ public partial class Form2 : Form
 
 	private void onlyClearBtn_Click(object sender, EventArgs e)
 	{
-		for (int c = line.Text.Length-1; c>=0; c--)
+		for (int c = line.Text.Length-1; c >= 0; c--)
 		{
 			if (line.Text[c] == '+' || line.Text[c] == '-' ||
 					line.Text[c] == '*' || line.Text[c] == '/')
@@ -147,7 +153,7 @@ public partial class Form2 : Form
 		}
 		else
 		{
-			line.Text = line.Text + "*" + pi.ToString("0.####",
+			line.Text = line.Text + pi.ToString("0.####",
 						  System.Globalization.CultureInfo.InvariantCulture);
 		}
 	}
@@ -163,22 +169,36 @@ public partial class Form2 : Form
 		}
 		else
 		{
-			line.Text = line.Text + "*" + e.ToString("0.####",
+			line.Text = line.Text + e.ToString("0.####",
 						  System.Globalization.CultureInfo.InvariantCulture);
 		}
 	}
 
 	private void sqrtNumBtn_Click(object sender, EventArgs e)
 	{
-		line.Text = Math.Sqrt
-			(Convert.ToDouble(new DataTable().Compute(line.Text, null)))
-				.ToString();
+		try
+		{
+			line.Text = Math.Sqrt
+				(Convert.ToDouble(new DataTable().Compute(line.Text, null)))
+					.ToString();
+		}
+		catch (Exception ex)
+		{
+			MessageBox.Show("Error", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+		}
 	}
 
 	private void to2PowBtn_Click(object sender, EventArgs e)
 	{
-		line.Text = Math.Pow
+		try
+		{
+			line.Text = Math.Pow
 			(Convert.ToDouble(new DataTable().Compute(line.Text, null)), 2.0)
 					.ToString();
+		}
+		catch (Exception ex)
+		{
+			MessageBox.Show("Error", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+		}
 	}
 }

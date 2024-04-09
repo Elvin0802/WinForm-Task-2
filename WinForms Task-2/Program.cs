@@ -14,7 +14,7 @@ public static class Program
 		}
 		catch(Exception ex)
 		{
-			MessageBox.Show("Erron in App", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			MessageBox.Show("Error in App", $"{ex.Message}", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 	}
 }
